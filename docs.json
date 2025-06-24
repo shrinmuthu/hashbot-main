@@ -1,0 +1,103 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Hashbot",
+  "colors": {
+    "primary": "#789edb",
+    "light": "#789edb",
+    "dark": "#789edb"
+  },
+  "fonts":{
+    "heading": {
+      "family": "Inter"
+    },
+    "body": {
+      "family": "Inter"
+    }
+  },
+  "background": {
+    "decoration": "grid"
+  },
+  "appearance": {
+    "default": "light"
+  },
+  "favicon": "/favicon.png",
+  "navigation": {
+    "groups": [
+      {
+        "group": " ",
+        "pages": [
+          "home"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/invite-hashbot",
+          "getting-started/hashbot-permissions",
+          "getting-started/hashbot-role-and-other-bots",
+          "getting-started/log-channel",
+          "getting-started/activate-subscription",
+          "getting-started/manager-role-s"
+        ]
+      },
+      {
+        "group": "Blocklist Management",
+        "pages": [
+          {
+            "group": "Name-Filters",
+            "icon": "filter",
+            "pages": [
+              "blocklist-management/name-filters",
+              "blocklist-management/name-filters/add-and-remove-filter"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Full Command Reference",
+        "pages": [
+          "full-command-reference/frequently-asked-questions"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Community",
+          "href": "https://discord.gg/hashbot",
+          "icon": "discord"
+        },
+        {
+          "anchor": "Contact Us",
+          "href": "mailto:hello@hashbot.io",
+          "icon": "envelope"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/light.png",
+    "href": "https://www.hashbot.io/"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Add to Server",
+        "href": "https://hashbot.io/invite"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Subscribe",
+      "href": "https://www.hashbot.io/#subscribe"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/hashbot",
+      "x": "http://twitter.com/HashbotOfficial"
+    }
+  }
+}
