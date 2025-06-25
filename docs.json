@@ -77,8 +77,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/light.png",
+    "light": "/logo/hashbot.svg",
+    "dark": "/logo/hashbot.svg",
     "href": "https://www.hashbot.io/"
   },
   "navbar": {
