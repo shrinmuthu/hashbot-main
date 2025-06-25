@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "Hashbot",
   "colors": {
-    "primary": "#789edb",
-    "light": "#789edb",
+    "primary": "#0f0f11",
+    "light": "#0f0f11",
     "dark": "#0f0f11"
   },
   "fonts":{
